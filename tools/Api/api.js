@@ -2,7 +2,7 @@ import axios from 'axios';
 import RNSecureStorage from 'rn-secure-storage';
 
 // let baseURL = 'http://192.168.1.104:8000';
-let baseURL = 'https://immense-tundra-42798.herokuapp.com'; // production
+let baseURL = 'https://tranquil-meadow-16447.herokuapp.com'; // production
 
 let instance = axios.create({
   baseURL: baseURL,
